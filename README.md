@@ -80,7 +80,7 @@ In the AWS EC2 instance console, edit the inbound security group, add the front-
 <img src="extras/cors_setting.png" width="512" height="256">
 
 
-* In the code of S3Utils, replace the 'aws_access_key_id', 'aws_secret_access_key', 'region_name', 'Params={'Bucket': 'avagi-storage-12'' with correct values.
+* In the code of S3Utils, replace the 'aws_access_key_id', 'aws_secret_access_key', 'region_name', 'Params={'Bucket': 'your s3 bucket name here')' with correct values. Here 'your s3 bucket name here' is 'avagi_storage-12' as shwon in image before.
 ```
         # connect to the hragent bucket in S3
         session = boto3.Session(
