@@ -1,0 +1,141 @@
+.wrapper {
+    min-height: 100vh; /* Set minimum height to 100% of the viewport height */
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Arrange children vertically */
+    width: 65%;
+    margin: 0 auto;
+}
+  
+.header {
+    height: 15vh; /* Set height to 10% of the viewport height */
+}
+  
+.Upload-Body {
+    flex: 1; /* Allow the Body container to grow and fill available space */
+    background-color: #f0f0f0;
+    width: 50%;
+    border-radius: 3%;
+    display: flex; /* Enable flexbox */
+    flex-direction: column; /* Stack children vertically */
+    height: 100%; /* Set the height to 100% of its parent */
+    justify-content: space-between; /* Distribute space evenly between the rows */
+}
+
+.Upload-Body .title {
+    font-weight: bolder;
+    font-size: 180%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.Upload-Body .btn-abled {
+    border-radius: 32px;
+    background-color: greenyellow;
+    width: 260px;
+    height: 64px;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    border: none;
+}
+
+.Upload-Body .btn-disabled {
+    border-radius: 32px;
+    background-color: rgba(169, 169, 169, 0.5); 
+    width: 260px;
+    height: 64px;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(128, 128, 128, 0.7);
+    margin-top: 3%;
+    margin-bottom: 2%;
+    border: none;
+    cursor: not-allowed;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    cursor: default; /* Standard cursor to indicate the button is not interactive */
+    pointer-events: none; /* Disable pointer events to prevent hover styles */
+}
+
+.Upload-Body .explain {
+    font-size: 20px;
+    color: dimgray;
+    margin-bottom: 2%;
+}
+
+.Upload-Body .img-list {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.Upload-Body .img-list .col-4 {
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.Upload-Body .image-tips-text {
+    text-align: left;
+    color: gray;
+    margin-bottom: 1%;
+}
+
+.Upload-Body .image-demo-wrapper {
+    width: fit-content;
+}
+
+.Upload-Body .image-demo-wrapper:hover {
+    transform: scale(1.05);
+}
+
+.Upload-Body .image-demo-wrapper:hover .has-image{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    filter: brightness(50%);
+}
+
+.Upload-Body .image-demo {
+    width: 260px;
+    height: 185px;
+    border-radius: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    cursor: pointer; 
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+.Upload-Body .remove-text {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white; 
+    font-weight: bold; 
+    display: none;
+    pointer-events: none;
+}
+
+.Upload-Body .image-demo-wrapper:hover .remove-text {
+    display: block;
+}
+
+
+.Upload-Body .image-label {
+    padding-top: 5%;
+    color: gray;
+}
+
+
+.footer-container {
+    margin-top: auto; /* Push the footer to the bottom */
+    background-color: black;
+}
+  
+.footer-container  #footer {
+    background-color: black;
+    height: 20vh;
+    padding-top: 5vh;
+}
+
+

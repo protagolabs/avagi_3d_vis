@@ -1,0 +1,17 @@
+.title.activated {
+    color: greenyellow;
+}
+
+.explain.activated {
+    color: white;
+}
+  
+.deactivated {
+    /* Styles for when the component is deactivated */
+    color: grey;
+}
+
+.footer-container {
+    margin-top: auto; /* Push the footer to the bottom */
+}
+  

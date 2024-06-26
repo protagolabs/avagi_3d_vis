@@ -1,0 +1,92 @@
+.wrapper {
+    min-height: 100vh; /* Set minimum height to 100% of the viewport height */
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Arrange children vertically */
+    width: 65%;
+    margin: 0 auto;
+}
+  
+.header {
+    height: 15vh; /* Set height to 10% of the viewport height */
+}
+  
+.Body {
+    flex: 1; /* Allow the Body container to grow and fill available space */
+    background-color: #f0f0f0;
+    width: 50%;
+    border-radius: 3%;
+    display: flex; /* Enable flexbox */
+    flex-direction: column; /* Stack children vertically */
+    height: 100%; /* Set the height to 100% of its parent */
+    justify-content: space-between; /* Distribute space evenly between the rows */
+}
+
+.Body .title {
+    font-weight: bolder;
+    font-size: 180%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.Body .btn {
+    border-radius: 32px;
+    background-color: greenyellow;
+    width: 260px;
+    height: 75px;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 2%;
+}
+
+.Body .explain {
+    font-size: 20px;
+    color: dimgray;
+}
+
+.Body .img-list {
+    width: 50%;
+    margin-left: 25%;
+}
+
+.Body .img-list .col-4 {
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.Body .image-tips-text {
+    text-align: left;
+    color: gray;
+    margin-bottom: 1%;
+}
+
+.Body .image-demo {
+    width: 95%;
+    height: 90%;
+}
+
+.Body .image-label {
+    padding-top: 5%;
+    color: gray;
+}
+
+
+.footer-container {
+    margin-top: auto; /* Push the footer to the bottom */
+    background-color: black;
+}
+  
+.footer-container  #footer {
+    background-color: black;
+    height: 20vh;
+    padding-top: 5vh;
+}
+
+
+
+
+
+
+

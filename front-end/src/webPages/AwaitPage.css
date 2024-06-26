@@ -1,0 +1,18 @@
+.Await-Body .title {
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    cursor: default;
+}
+
+.Await-Body .explain {
+    color: lightgray;
+    font-size: 22px;
+    font-weight: 400;
+    padding-top: 20px;
+    cursor: default;
+}
+
+.Await-Body .wait-bar {
+    padding-top: 125px;
+}
