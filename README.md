@@ -1,5 +1,5 @@
 # avagi_3d_vis
-The web visualization of created avagi3d charactors. This work is done by my colleage Zhouhan Zhang, and I am the organizer only.
+The web visualization of created avagi3d charactors. This work was done by my colleague Zhouhan Zhang, and I am the organizer only.
 
 # Pre-requirements
 
